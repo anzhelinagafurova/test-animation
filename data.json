@@ -1,0 +1,117 @@
+{  "auto1":
+    {
+        "mark": "audi",
+        "model": "A4",
+        "year": "2015", 
+        "delivery": "05.06.2020-21.05.2022"
+    },
+    "auto2":
+    {
+        "mark": "audi",
+        "model": "A4",
+        "year": "2016", 
+        "delivery": "12.09.2020-28.02.2022"
+    },
+    "auto3":
+    {
+        "mark": "ВАЗ",
+        "model": "2101",
+        "year": "2015", 
+        "delivery": "30.09.2021-01.02.2023"
+    },
+    "auto5":
+    {
+        "mark": "ВАЗ",
+        "model": "2101",
+        "year": "2016", 
+        "delivery": "05.01.2022-21.05.2022"
+    }
+    ,
+    "auto6":
+    {
+        "mark": "ВАЗ",
+        "model": "2101",
+        "year": "2019", 
+        "delivery": "21.05.2021-28.02.2022"
+    }
+    ,
+    "auto7":
+    {
+        "mark": "ВАЗ",
+        "model": "20000",
+        "year": "2019", 
+        "delivery": "30.09.2021-01.02.2023"
+    }
+    ,
+    "auto8":
+    {
+        "mark": "bmw",
+        "model": "M19",
+        "year": "2018", 
+        "delivery": "21.05.2021-28.02.2022"
+    }
+    ,
+    "auto9":
+    {
+        "mark": "bmw",
+        "model": "M19",
+        "year": "2015", 
+        "delivery": "30.09.2021-01.02.2023"
+    }
+    ,
+    "auto10":
+    {
+        "mark": "bmw",
+        "model": "M19",
+        "year": "2010", 
+        "delivery": "21.05.2021-28.02.2022"
+    }
+    ,
+    "auto11":
+    {
+        "mark": "bmw",
+        "model": "P90",
+        "year": "2012", 
+        "delivery": "30.09.2021-01.02.2023"
+    }
+    ,
+    "auto12":
+    {
+        "mark": "bmw",
+        "model": "P90",
+        "year": "2015", 
+        "delivery": "21.05.2021-28.02.2022"
+    }
+    ,
+    "auto13":
+    {
+        "mark": "toyota",
+        "model": "TR67",
+        "year": "2021", 
+        "delivery": "30.09.2021-01.02.2023"
+    }
+    ,
+    "auto14":
+    {
+        "mark": "toyota",
+        "model": "TR67",
+        "year": "2020", 
+        "delivery": "05.02.2022-21.05.2022"
+    }
+    ,
+    "auto15":
+    {
+        "mark": "toyota",
+        "model": "EX88",
+        "year": "2020", 
+        "delivery": "21.05.2021-28.02.2022"
+    }
+    ,
+    "auto16":
+    {
+        "mark": "toyota",
+        "model": "EX88",
+        "year": "2021", 
+        "delivery": "05.06.2019-21.05.2022"
+    }
+}

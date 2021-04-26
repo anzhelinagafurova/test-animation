@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.main__container{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.square-container{
+    width: 250px;
+    height:250px; 
+    display: flex;  
+    flex-wrap: wrap;       
+    padding: 20px 0px;
+}
+.square1, 
+.square2, 
+.square3, 
+.square4{
+    height: 125px;
+    width: 125px;
+    background-color: rgb(21, 180, 101);
+    position: relative;
+}
+.square1{
+    animation-name: centerToLeftUp;
+}
+.square2{
+    animation-name: centerToRightUp;
+}
+.square3{
+    animation-name: centerToLeftDown;
+}
+.square4{
+    animation-name: centerToRightDown;
+}
+.square-animated{
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+.square-container__circle{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 150px;
+    background-color: lightcoral;   
+    text-align: center;
+    cursor: pointer;
+}
+.circle-animated {
+    animation-name: fadeInRotate;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-delay: 3s;
+}
+.form__container{
+    margin: 20px 0px;
+}
+.select-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+input, select{
+    cursor: pointer;
+}
+select{   
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+option{
+    padding: 10px;
+}
+button{
+    display: block;   
+    background-color: rgb(21, 180, 101);    
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;   
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 10px 40px;
+    margin: 20px auto;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+.form__pop-up{
+    width: 200px;   
+    border: 2px solid rgb(21, 180, 101);
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 20px 40px;
+}
+.form__calendar{
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    margin: 20px auto;
+    padding: 0px 10px;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+} 
+@keyframes fadeInRotate {
+    0% {
+        opacity: 0;
+        transform: rotate(180deg);
+    }
+    50% {
+        opacity: 1;
+        transform: rotate(180deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+} 
+
+@keyframes centerToLeftUp {
+    0% {
+        top:0;
+        left: 0;
+    }
+    100% {
+        top: -50vh;
+        left: -50vw;
+    }
+} 
+@keyframes centerToLeftDown {
+    0% {
+        top:0;
+        left: 0;
+    }
+    100% {
+        top: 50vh;
+        left: -50vw;
+    }
+} 
+@keyframes centerToRightUp {
+    0% {
+        top:0;
+        left: 0;
+    }
+    100% {
+        top: -50vh;
+        left: 50vw;
+    }
+} 
+@keyframes centerToRightDown {
+    0% {
+        top:0;
+        left: 0;
+    }
+    100% {
+        top: 50vh;
+        left: 50vw;
+    }
+} 
